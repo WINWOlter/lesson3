@@ -22,8 +22,8 @@ class Cat:
   self.name = Cat
   self.age = 3
   
-  def play_w_human(self,human):
-     human.is_sad = False
+ def play_w_human(self,human):
+  human.is_sad = False
 
 my_pet = Cat("Cat",40)
 me = Person("Mark",170)
@@ -31,7 +31,7 @@ you = Person('Vova', 176)
 
 print(me.is_sad)
 
-my_pet.play_w_hooman(me)
+my_pet.play_w_human(me)
 
 print("Сумний - ",me.is_sad)
      
